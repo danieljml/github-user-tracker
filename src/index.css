@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,700&display=swap');
+
+:root {
+  --body_bg: #001f3f;
+  --content_bg: #162447;
+  --content_bg_alt: #04182e;
+  --text: #ffff;
+  --text-alt: #ffff;
+  --shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  --shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+  --icon-bg: brightness(100%);
+  /* Btn */
+  --btn: #0079ff;
+  --btn-text: #ffff;
+  --btn-hover: #60abff;
+}
+
+[data-theme='light'] {
+  --body_bg: #c9c9c9;
+  --content_bg: #ffffff;
+  --content_bg_alt: #000000;
+  --text: #000000;
+  --text-alt: #ffffff;
+  --shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  --shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+  --icon-bg: brightness(100%);
+  /* Btn */
+  --btn: #000000;
+  --btn: #000000;
+  --btn_text: #ffffff;
+  --btn-hover: #60abff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+  position: relative;
+  display: grid;
+  place-items: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: var(--body_bg);
+  font-size: 13px;
+  color: var(--text);
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
